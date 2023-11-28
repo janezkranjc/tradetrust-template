@@ -14,7 +14,7 @@ import { BrochureTemplates } from "./Brochure";
 import { BillOfLadingV1BimcoStandardTemplates } from "./BillOfLadingBimcoStandard";
 
 export const registry: TemplateRegistry<any> = {
-  BILL_OF_LADING: BillOfLadingTemplates,
+  CARGOX: BillOfLadingTemplates,
   BILL_OF_LADING_MAERSK_PILOT: BillOfLadingMaerskPilotTemplates,
   BILL_OF_LADING_MAERSK_TPAC: BillOfLadingMaerskTpacTemplates,
   BILL_OF_LADING_GENERIC: BillOfLadingGenericTemplates,

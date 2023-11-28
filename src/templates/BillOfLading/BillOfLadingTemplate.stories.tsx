@@ -11,14 +11,14 @@ export default {
   },
 };
 
-export const BillOfLadingEmpty: FunctionComponent = () => {
-  return <BillOfLadingTemplate document={{} as any} handleObfuscation={() => {}} />; // when empty, visually should not show any dangling values
-};
+// export const BillOfLadingEmpty: FunctionComponent = () => {
+//   return <BillOfLadingTemplate document={{} as any} handleObfuscation={() => {}} />; // when empty, visually should not show any dangling values
+// };
 
 export const BillOfLadingV2: FunctionComponent = () => {
   return <BillOfLadingTemplate document={BillOfLadingSampleV2} handleObfuscation={() => {}} />;
 };
 
-export const BillOfLadingV3: FunctionComponent = () => {
-  return <BillOfLadingTemplate document={BillOfLadingSampleV3} handleObfuscation={() => {}} />;
-};
+// export const BillOfLadingV3: FunctionComponent = () => {
+//   return <BillOfLadingTemplate document={BillOfLadingSampleV3} handleObfuscation={() => {}} />;
+// };
